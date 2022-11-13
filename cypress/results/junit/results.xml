@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-11-13T15:10:20" tests="0" file="cypress/e2e/firstTest.spec.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test with backend" timestamp="2022-11-13T15:10:20" tests="6" time="20.197" failures="0">
+  
+  <testcase name="Test with backend should be logged in" time="3.329" classname="should be logged in"></testcase>
+  
+  <testcase name="Test with backend verify correct request and response" time="4.950" classname="verify correct request and response"></testcase>
+  
+  <testcase name="Test with backend intercepting and modifying the request and response" time="4.684" classname="intercepting and modifying the request and response"></testcase>
+  
+  <testcase name="Test with backend verify popular tags are displayed" time="1.356" classname="verify popular tags are displayed"></testcase>
+  
+  <testcase name="Test with backend verify global feeds likes count" time="2.312" classname="verify global feeds likes count"></testcase>
+  
+  <testcase name="Test with backend api requests - delete an article" time="3.078" classname="api requests - delete an article"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-11-13T15:10:49" tests="0" file="cypress/e2e/secondTest.spec.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2022-11-13T15:10:49" tests="1" time="15.791" failures="1">
+  
+  <testcase name="Test log out Verify user can log out successfully" time="8.157" classname="Verify user can log out successfully">
+    
+    <failure message="Timed out retrying after 4000ms: expected &apos;&lt;ul.nav.navbar-nav.pull-xs-right&gt;&apos; to contain &apos;Sign udp&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<ul.nav.navbar-nav.pull-xs-right>' to contain 'Sign udp'
+    at Context.eval (webpack:///./cypress/e2e/secondTest.spec.js:9:30)]]></failure>
+    
+  </testcase>
+  
+</testsuite>
+
+</testsuites>
