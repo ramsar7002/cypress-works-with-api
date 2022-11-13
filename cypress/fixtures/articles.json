@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "slug": "Atricle-title_x5wtg20ju-1850",
+            "title": "title1",
+            "description": "Atricle about",
+            "body": "Atricle body",
+            "tagList": [],
+            "createdAt": "2022-11-12T15:44:48.310Z",
+            "updatedAt": "2022-11-12T15:44:48.310Z",
+            "favorited": false,
+            "favoritesCount": 1,
+            "author": {
+                "username": "CY Tester",
+                "bio": "knsdsadsdsadas",
+                "image": "ibdadfasdkfj;s",
+                "following": false
+            }
+        },
+        {
+            "slug": "Atricle-title_kyfokmhhc-1850",
+            "title": "title2",
+            "description": "Atricle about",
+            "body": "Atricle body",
+            "tagList": [],
+            "createdAt": "2022-11-12T15:43:24.797Z",
+            "updatedAt": "2022-11-12T15:43:24.797Z",
+            "favorited": false,
+            "favoritesCount": 5,
+            "author": {
+                "username": "CY Tester",
+                "bio": "knsdsadsdsadas",
+                "image": "ibdadfasdkfj;s",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 2
+}
